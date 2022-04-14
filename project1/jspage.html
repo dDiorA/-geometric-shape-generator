@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/project1/jspages.css" />
+    <title>Substance Creator</title>
+    <style type="text/css">
+      #color{background-color: bisque;}
+      #color1{color: deeppink; font: 16px solid Arial;}
+      
+    
+    </style>
+  </head>
+
+  <body  id="color" class="align"  >
+    <form action="" method="get">
+      <table>
+        <tr>
+          <td id="color1" width="200" height="30">Width</td>
+          <td width="300"><input id="width" type="text"></td>
+        </tr>
+        <tr>
+          <td id="color1" height="30">Height</td>
+          <td ><input id="height" type="text"></td>
+        </tr>
+        <tr>
+          <td id="color1" height="30">Edge Thickness</td>
+          <td><select name="" id="edthick">
+            <option value="">Select Edge Thickness</option>
+            <option value="1px">1px</option>
+            <option value="2px">2px</option>
+            <option value="3px">3px</option>
+            <option value="4px">4px</option>
+            <option value="5px">5px</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td id="color1" height="30">Edge Type</td>
+          <td><select name="" id="edgetype">
+            <option value="">Select Edge Type</option>
+            <option value="solid">Solid</option>
+            <option value="dashed">Dashed</option>
+            <option value="dotted">Dotted</option>
+            <option value="double">Double</option>
+          </select></td>
+        </tr>
+          <td id="color1" height="30">Edge Color</td>
+          <td><select name="" id="edgecolor">
+            <option value="">Select Edge Color</option>
+            <option value="#f00">Red</option>
+            <option value="#00f">Blue</option>
+            <option value="#0f0">Green</option>
+            <option value="#000">Black</option>
+          </select></td>
+
+          <tr>
+            <td id="color1" height="30">Background Color</td>
+            <td><select name="" id="bgcolor">
+              <option value="">Select Background Color</option>
+              <option value="#f00">Red</option>
+              <option value="#00f">Blue</option>
+              <option value="#0f0">Green</option>
+              <option value="#000">Black</option>
+            </select>
+            </td>
+          </tr>
+          <tr>
+            <td id="color1" height="30">Ovality</td>
+            <td><select name="" id="ovality">
+              <option value="">Select Ovality</option>
+              <option value="3px">3px</option>
+              <option value="5px">5px</option>
+              <option value="10px">10px</option>
+              <option value="15px">15px</option>
+              <option value="25px">25px</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td  height="30"></td>
+            <td ><input id="height" type="button" value="Create!" onclick="creatediv()" ></td>
+          </tr>
+      </table>
+    </form>
+  </br></br></br>
+  <div id="box"></div>
+  </body>
+
+  <script
+    type="text/javascript"
+    lang="Javascript"
+    src="./javascript.js"
+  ></script>
+</html>
